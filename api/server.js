@@ -22,7 +22,7 @@ app.get('/api/books', (req, res) => {
 app.post('/api/book', (req, res) => {
   console.log('Adding book:::::', req.body.book);
   books.push(req.body.book);
-  res.json("book added");
+  res.json("boo k added");
 });
 
 app.get('/', (req,res) => {
